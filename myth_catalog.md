@@ -10,17 +10,23 @@ This page serves as a growing catalog of the diverse global myths being investig
     *   A radiant, often floating vessel or stone, emitting blinding light and divine power, sought by knights on a spiritual quest (e.g., to Sarras) during a time of societal decline and a "wasteland."
 *   **Hungarian: The Csodaszarvas (Celestial Stag)**
     *   A miraculous, radiant stag with antlers shining like the sun or stars, appearing as a divine messenger to guide the Magyar people on their migration to the Carpathian Basin.
-*   **Roman: Constantine's Cross**
-    *   Emperor Constantine's vision of a "cross of light" or glowing crucifix in the sky before a pivotal battle, interpreted as a divine sign that guided his victory and the Christianization of the Roman Empire.
 
 ## Additional Global Myths Under Review (Examples):
 
 *(Based on the `King arthur Grail celestial stag of hungarians.txt` document and comparative table entries. This list will grow.)*
 
+*   **Roman: Constantine's Cross**
+    *   Emperor Constantine's vision of a "cross of light" or glowing crucifix in the sky before a pivotal battle, interpreted as a divine sign that guided his victory and the Christianization of the Roman Empire.
 *   **Mande (West Africa): The Wagadu Star**
     *   A "great star" or radiant orb that guided the Soninke people, led by the ancestor Dinga, to found their civilization during a time of drought and darkened skies.
 *   **Cham (Southeast Asia): Po Nagar's Sky Jewel**
     *   A radiant "sky jewel" that guided the goddess Po Nagar and the Cham people in coastal migrations and temple founding amidst "ash-filled skies" and floods.
+*   **Tai (Northern Thailand): The Star of Singhanavati**
+    *   A "great star" that appeared during "darkened skies" and famine, guiding Chief Simhanavati and the Tai people on a migration from Guangxi to northern Thailand, leading to the founding of Chiang Saen.
+*   **Mon (Dvaravati, Central Thailand): Phra Mae Thorani's Star**
+    *   A "golden star" that appeared during "shadowed lands" and floods, guiding the Earth Goddess Phra Mae Thorani and Mon communities in a migration to central Thailand's fertile plains and the establishment of Nakhon Pathom as a Buddhist center.
+*   **Khmer-related (Mekong Region): The Naga's Fire-Star**
+    *   A "fire-star," linked to Naga serpents, that appeared during "burning skies" and drought, guiding communities along the Mekong River to new settlements and to honor the Naga's power.
 *   **Mixtec (Mesoamerica): Lord 8 Deer's Star of Conquest**
     *   A guiding "star of conquest" (radiant orb or feathered serpent) linked to Quetzalcoatl, prompting Lord 8 Deer's military campaigns and migrations during a time of famine and darkened skies.
 *   **Khazar (Central Asia): The Sky Wolf**
