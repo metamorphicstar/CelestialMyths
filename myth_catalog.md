@@ -57,6 +57,16 @@ This page serves as a growing catalog of the diverse global myths being investig
     *   Records of comets or "flaming stars" seen as omens prompting caliphal expeditions, pilgrimages, or guiding caravans.
 *   **Norse Mythology: Auroras (Bifrost) and Sky Serpents**
     *   The aurora borealis as a radiant bridge (Bifrost) or omens like a "flaming sky" or "sky serpent" guiding Viking voyages or signaling cosmic upheaval (Ragnarok).
+*   **Japanese (Yamato): Amaterasu's Celestial Bridge**
+    *   A "celestial bridge of light" sent by the sun goddess Amaterasu to guide her grandson Ninigi-no-Mikoto from the heavens to Mount Takachiho during a time of "shadowed skies" and chaos, leading to the founding of the Yamato dynasty.
+*   **Japanese (Izumo): Susanoo's Star Serpent**
+    *   A radiant "star serpent" guiding the storm god Susanoo to Izumo during a time of "blackened skies" and floods, leading to his quest to slay the eight-headed Yamata-no-Orochi and claim the sacred Kusanagi sword.
+*   **Japanese (Asuka): Emperor Tenmu's Heavenly Star**
+    *   A "heavenly star" appearing during a time of "burning skies" and famine, guiding Emperor Tenmu to relocate the capital to Asuka and perform sacred rituals at Ise Shrine.
+*   **Ancestral Puebloan (Southwest): The Star of the Great Kiva**
+    *   A radiant star tied to the creator Masau'u, guiding clans to Chaco Canyon during a time of "ash skies" and drought, leading to the building of sacred kivas and establishing cosmic balance.
+*   **Iroquois (Eastern Woodlands): The Sky Woman's Star**
+    *   A "falling star" guiding Sky Woman to the Great Lakes region during a time of "shadowed earth" and floods, leading to the settlement of the Iroquois Confederacy and the creation of a new world.
 
 ---
 

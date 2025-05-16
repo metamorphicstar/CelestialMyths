@@ -32,6 +32,69 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 1000);
     });
 
+    // Function to determine marker color based on celestial sign description
+    function getMarkerColor(celestialSign) {
+        const signLower = celestialSign.toLowerCase();
+        
+        // Radiant Bridges/Paths (Blue)
+        if (signLower.includes('bridge') || signLower.includes('path') || signLower.includes('road')) {
+            return '#4169E1';
+        }
+        
+        // Divine Animals/Beings (Green)
+        if (signLower.includes('stag') || signLower.includes('wolf') || signLower.includes('serpent') || 
+            signLower.includes('sisters') || signLower.includes('women') || signLower.includes('horse')) {
+            return '#2E8B57';
+        }
+        
+        // Sacred Objects/Vessels (Purple)
+        if (signLower.includes('vessel') || signLower.includes('cup') || signLower.includes('jewel') || 
+            signLower.includes('stone') || signLower.includes('grail')) {
+            return '#9370DB';
+        }
+        
+        // Flame/Fire Signs (Red)
+        if (signLower.includes('fire') || signLower.includes('flame') || signLower.includes('burning')) {
+            return '#FF4500';
+        }
+        
+        // Divine Stars/Orbs (Gold) - default category
+        return '#FFD700';
+    }
+
+    // Add a legend to the map
+    function addLegend() {
+        const legend = L.control({position: 'bottomright'});
+        
+        legend.onAdd = function (map) {
+            const div = L.DomUtil.create('div', 'info legend');
+            div.style.backgroundColor = 'white';
+            div.style.padding = '10px';
+            div.style.borderRadius = '5px';
+            div.style.border = '2px solid rgba(0,0,0,0.2)';
+            
+            const categories = [
+                ['Radiant Bridges/Paths', '#4169E1'],
+                ['Divine Animals/Beings', '#2E8B57'],
+                ['Sacred Objects/Vessels', '#9370DB'],
+                ['Divine Stars/Orbs', '#FFD700'],
+                ['Flame/Fire Signs', '#FF4500']
+            ];
+            
+            div.innerHTML += '<h4 style="margin-top:0">Celestial Sign Types</h4>';
+            
+            for (let [category, color] of categories) {
+                div.innerHTML +=
+                    '<i style="background: ' + color + '; width: 18px; height: 18px; float: left; margin-right: 8px; border-radius: 50%;"></i> ' +
+                    category + '<br style="clear:both">';
+            }
+            
+            return div;
+        };
+        
+        legend.addTo(map);
+    }
+
     // Fetch the GeoJSON data with error handling and retry
     function fetchGeoJSON(retries = 3) {
         // Try multiple possible paths for the GeoJSON file
@@ -53,11 +116,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
-                    return response.text(); // Get the raw text first
+                    return response.text();
                 })
                 .then(text => {
                     try {
-                        const data = JSON.parse(text); // Parse the text to check for JSON validity
+                        const data = JSON.parse(text);
                         L.geoJSON(data, {
                             onEachFeature: function (feature, layer) {
                                 if (feature.properties) {
@@ -75,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             pointToLayer: function (feature, latlng) {
                                 return L.circleMarker(latlng, {
                                     radius: 8,
-                                    fillColor: "#ff7800",
+                                    fillColor: getMarkerColor(feature.properties.celestialSign),
                                     color: "#000",
                                     weight: 1,
                                     opacity: 1,
@@ -83,10 +146,13 @@ document.addEventListener('DOMContentLoaded', function () {
                                 });
                             }
                         }).addTo(map);
+                        
+                        // Add the legend after the GeoJSON is loaded
+                        addLegend();
                     } catch (e) {
                         console.error('JSON parsing error:', e);
                         console.error('Problem with JSON at path:', possiblePaths[pathIndex]);
-                        console.error('Raw text received:', text.substring(0, 500) + '...'); // Log first 500 chars
+                        console.error('Raw text received:', text.substring(0, 500) + '...');
                         if (retries > 0) {
                             setTimeout(() => tryNextPath(pathIndex + 1), 1000);
                         }

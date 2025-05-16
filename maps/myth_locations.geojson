@@ -391,6 +391,91 @@
         "potentialCause": "Aurora (flare-intensified); comet",
         "conventionalDate": "~AD 793-1066"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.6067, 31.7354]
+      },
+      "properties": {
+        "culture": "Japanese (Yamato)",
+        "mythName": "Amaterasu's Celestial Bridge",
+        "celestialSign": "Celestial bridge of light guiding Ninigi-no-Mikoto from heaven; divine radiance",
+        "journeyType": "Migration to Kyushu (Mt. Takachiho); founding Yamato dynasty",
+        "catastrophe": "Shadowed skies; chaos; societal upheaval",
+        "redating": "~AD 930",
+        "potentialCause": "Aurora; comet tail; plasma phenomenon (Peratt)",
+        "conventionalDate": "6th-7th C. texts (Kojiki 712, Nihon Shoki 720)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.8958, 35.4000]
+      },
+      "properties": {
+        "culture": "Japanese (Izumo)",
+        "mythName": "Susanoo's Star Serpent",
+        "celestialSign": "Radiant star serpent guiding storm god; serpentine light in sky",
+        "journeyType": "Quest to slay Yamata-no-Orochi; claim Kusanagi sword",
+        "catastrophe": "Blackened skies; floods",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; aurora (serpentine); plasma phenomenon",
+        "conventionalDate": "6th-7th C. texts (Kojiki 712, Nihon Shoki 720)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.8197, 34.4850]
+      },
+      "properties": {
+        "culture": "Japanese (Asuka)",
+        "mythName": "Emperor Tenmu's Heavenly Star",
+        "celestialSign": "Heavenly star as divine mandate; radiant celestial sign",
+        "journeyType": "Capital relocation to Asuka; ritual journeys to Ise",
+        "catastrophe": "Burning skies; famine",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; nova; aurora (flare-intensified)",
+        "conventionalDate": "684 AD (Nihon Shoki)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-107.9700, 36.0544]
+      },
+      "properties": {
+        "culture": "Ancestral Puebloan",
+        "mythName": "Star of the Great Kiva",
+        "celestialSign": "Radiant star tied to creator Masau'u; divine guidance",
+        "journeyType": "Migration to Chaco Canyon; building sacred kivas",
+        "catastrophe": "Ash skies; drought",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; aurora; solar flare effects",
+        "conventionalDate": "700-1000 AD (archaeological evidence)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3832, 43.6532]
+      },
+      "properties": {
+        "culture": "Iroquois",
+        "mythName": "Sky Woman's Star",
+        "celestialSign": "Falling star guiding divine feminine figure; celestial descent",
+        "journeyType": "Migration to Great Lakes; founding Confederacy",
+        "catastrophe": "Shadowed earth; floods",
+        "redating": "~AD 930",
+        "potentialCause": "Meteor; comet; aurora (flare-intensified)",
+        "conventionalDate": "600-1000 AD oral traditions (recorded 19th C.)"
+      }
     }
   ]
 } 
