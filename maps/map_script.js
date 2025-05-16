@@ -1,11 +1,28 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize the map and set its view to a chosen geographical coordinates and zoom level
-    var map = L.map('map').setView([20, 0], 2); // Centered broadly, zoom level 2
+    var map = L.map('map', {
+        center: [20, 0],
+        zoom: 2,
+        minZoom: 2,
+        maxZoom: 18,
+        worldCopyJump: true,
+        maxBounds: [[-90, -180], [90, 180]]
+    });
 
-    // Add a tile layer to add to our map, for example OpenStreetMap
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    // Add a tile layer to add to our map
+    var baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: ['a', 'b', 'c'],
+        maxZoom: 18,
+        tileSize: 256,
+        zoomOffset: 0,
+        detectRetina: true
     }).addTo(map);
+
+    // Add error handling for tile layer
+    baseLayer.on('tileerror', function(e) {
+        console.error('Tile error:', e);
+    });
 
     // Fetch the GeoJSON data
     fetch('./myth_locations.geojson')
@@ -23,8 +40,23 @@ document.addEventListener('DOMContentLoaded', function () {
                                          `<p><strong>Potential Celestial Cause:</strong> ${feature.properties.potentialCause}</p>`;
                         layer.bindPopup(popupContent);
                     }
+                },
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "#ff7800",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    });
                 }
             }).addTo(map);
         })
         .catch(error => console.error('Error loading GeoJSON data:', error));
+
+    // Handle window resize
+    window.addEventListener('resize', function() {
+        map.invalidateSize();
+    });
 }); 
