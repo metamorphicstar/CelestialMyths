@@ -1,0 +1,35 @@
+/* Custom table styling */
+table {
+  border-collapse: collapse; /* Ensures borders are neat */
+  /* width: 100%; Removed to allow table to dictate its width; page can scroll if needed. */
+  margin-bottom: 1em; /* Adds some space below tables */
+  font-size: 0.9em; /* Slightly reduce font size for large tables */
+}
+
+th, td {
+  border: 1px solid #ccc; /* Adds a light grey border to cells */
+  padding: 6px; /* Adjusts cell padding */
+  text-align: left; /* Aligns text to the left in cells */
+  vertical-align: top; /* Aligns content to the top of the cell */
+}
+
+/* Style for table header row */
+thead tr {
+  background-color: #e9e9e9; /* A light grey for the header */
+  font-weight: bold;
+}
+
+/* Style for even rows in the table body - darker alternating row */
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5; 
+}
+
+/* Style for odd rows in the table body */
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White for odd rows */
+}
+
+/* Ensure block elements within markdown tables don't cause excessive width issues */
+table p {
+  margin-bottom: 0;
+} 
