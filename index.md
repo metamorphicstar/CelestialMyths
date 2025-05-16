@@ -14,4 +14,5 @@ This website aims to document the growing catalog of these interconnected myths,
 Navigate through the sections to learn more about:
 *   [The Core Hypothesis and Methodology](hypothesis.md)
 *   [A Catalog of Investigated Myths](myth_catalog.md)
-*   [Comparative Tables of Mythological Elements](comparative_tables.md) 
+*   [Comparative Tables of Mythological Elements](comparative_tables.md)
+*   [Interactive Map of Mythological Origins](maps/interactive_map.html) 

@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1278, 51.5074]
+      },
+      "properties": {
+        "culture": "Arthurian (British Celts)",
+        "mythName": "Holy Grail",
+        "celestialSign": "Radiant, floating vessel/cup/dish/stone; blinding light; divine visions; ascends to heaven",
+        "journeyType": "Spiritual quest (to Sarras/Holy Land); individual test of purity",
+        "catastrophe": "Wasteland (Fisher King); societal decline; AD 536-545 anomaly",
+        "redating": "~AD 930",
+        "potentialCause": "Aurora; comet; plasma phenomenon (Peratt); solar flare effects"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.0402, 47.4979]
+      },
+      "properties": {
+        "culture": "Hungarian",
+        "mythName": "Csodaszarvas (Celestial Stag)",
+        "celestialSign": "Radiant, divine stag; antlers shine like sun/stars; divine messenger (Tengri)",
+        "journeyType": "Migration (to Carpathian Basin)",
+        "catastrophe": "Displacement; divine guidance in darkness",
+        "redating": "~AD 930",
+        "potentialCause": "Aurora; comet; meteor; solar flare"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.4964, 41.9028]
+      },
+      "properties": {
+        "culture": "Roman",
+        "mythName": "Constantine's Cross",
+        "celestialSign": "Cross of light in sky at midday / glowing crucifix (Chi-Rho); \\"In hoc signo vinces\\"",
+        "journeyType": "Military campaign to Rome; Christianization of Empire",
+        "catastrophe": "Crisis of 3rd Century (conventional backdrop)",
+        "redating": "~AD 930",
+        "potentialCause": "Solar halo; cross-shaped aurora (Peratt); comet; plasma phenomenon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.0, 17.0] 
+      },
+      "properties": {
+        "culture": "Mande (West Africa)",
+        "mythName": "Wagadu Star",
+        "celestialSign": "\\"Great star of Wagadu\\" / radiant orb (ancestor Dinga) guiding Soninke to Niger R.",
+        "journeyType": "Migration to found civilization (Kumbi Saleh)",
+        "catastrophe": "Drought; \\"darkened skies\\"",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; nova; low-latitude aurora (flare-intensified)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.9783, 11.5950] 
+      },
+      "properties": {
+        "culture": "Cham (Southeast Asia)",
+        "mythName": "Po Nagar's Sky Jewel",
+        "celestialSign": "\\"Sky jewel\\" (radiant orb/star) guiding goddess Po Nagar & Cham in coastal migrations",
+        "journeyType": "Coastal migrations; temple founding",
+        "catastrophe": "\\"Ash-filled skies\\"; floods; loss of fertility",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; meteor; aurora (flare-intensified)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.0833, 20.2667] 
+      },
+      "properties": {
+        "culture": "Tai (Northern Thailand)",
+        "mythName": "Star of Singhanavati",
+        "celestialSign": "\\"Great star\\" guiding Chief Simhanavati; appeared during \\"darkened skies\\" and famine",
+        "journeyType": "Migration (from Guangxi to N. Thailand); founding of Chiang Saen & Theravada Buddhist kingdom",
+        "catastrophe": "\\"Darkened skies\\"; famine",
+        "redating": "~AD 930",
+        "potentialCause": "Comet (Justinian's/Halley's); aurora (solar flare-enhanced)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.0625, 13.8183] 
+      },
+      "properties": {
+        "culture": "Mon (Dvaravati, C. Thailand)",
+        "mythName": "Phra Mae Thorani's Star",
+        "celestialSign": "\\"Golden star\\" guiding Earth Goddess Phra Mae Thorani; appeared during \\"shadowed lands\\" & floods",
+        "journeyType": "Migration (coastal to central Thailand); founding Nakhon Pathom as Buddhist center; spiritual quest",
+        "catastrophe": "\\"Shadowed lands\\"; floods",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; nova; flare-brightened star; aurora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8667, 13.4333] 
+      },
+      "properties": {
+        "culture": "Khmer-related (Mekong Region)",
+        "mythName": "Naga's Fire-Star",
+        "celestialSign": "\\"Fire-star\\" linked to Naga serpents guiding communities; \\"burning skies\\" & drought",
+        "journeyType": "Migration along Mekong River to new settlements; quest to honor Naga power",
+        "catastrophe": "\\"Burning skies\\"; drought",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; fireball (Naga fireballs); aurora (solar flare-enhanced)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.4689, 17.2969] 
+      },
+      "properties": {
+        "culture": "Mixtec (Mesoamerica)",
+        "mythName": "Lord 8 Deer's Star of Conquest",
+        "celestialSign": "\\"Star of conquest\\" / radiant orb / feathered serpent (Quetzalcoatl) guiding Lord 8 Deer",
+        "journeyType": "Military campaigns; migrations to fertile valleys",
+        "catastrophe": "\\"Darkened skies\\"; famine; unification wars",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; Venus event (flare-enhanced); aurora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.0336, 46.3497] 
+      },
+      "properties": {
+        "culture": "Khazar (Central Asia)",
+        "mythName": "Sky Wolf",
+        "celestialSign": "\\"Sky wolf\\" (radiant star/comet) guiding Khazar tribes to Volga-Caspian",
+        "journeyType": "Migration to establish capital (Itil)",
+        "catastrophe": "\\"Burning skies\\"; famine",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; aurora (flare-intensified, wolf-like shapes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.5234, 50.4501] 
+      },
+      "properties": {
+        "culture": "Slavic",
+        "mythName": "Jarilo's Star",
+        "celestialSign": "\\"Flaming star\\" (sun god Jarilo) guiding tribes westward",
+        "journeyType": "Tribal migrations (to Elbe/Dnieper)",
+        "catastrophe": "\\"Dark skies\\"; famine",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; aurora (flare-intensified)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.3890, 35.6892] 
+      },
+      "properties": {
+        "culture": "Avestan (Zoroastrian/Persian)",
+        "mythName": "Tishtrya's Star",
+        "celestialSign": "Star deity (Tishtrya/Sirius) as radiant horse/shining orb; defeats drought demon",
+        "journeyType": "Quest for sacred waters; migrations to fertile lands",
+        "catastrophe": "\\"Blackened skies\\"; drought",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; nova; aurora; flare-intensified Sirius"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.9286, 43.2378] 
+      },
+      "properties": {
+        "culture": "Turkic (Central Asia)",
+        "mythName": "Wolf Star",
+        "celestialSign": "\\"Wolf star\\" (Sirius/comet) guiding Göktürk tribes; wolf as Tengri's messenger",
+        "journeyType": "Nomadic migrations (Altai/Tarim Basin)",
+        "catastrophe": "\\"Ash skies\\"; finding new grazing lands",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; aurora (flare-intensified)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.1198, 9.9252] 
+      },
+      "properties": {
+        "culture": "Tamil (South India)",
+        "mythName": "Agastya's Star",
+        "celestialSign": "\\"Southern star\\" (Canopus) guiding sage Agastya south & traders on maritime quests",
+        "journeyType": "Maritime quests/trade (to Sri Lanka, SE Asia)",
+        "catastrophe": "\\"Darkened skies\\"; cultural expansion",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; flare-enhanced Canopus; aurora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.7751, -25.2744] 
+      },
+      "properties": {
+        "culture": "Aboriginal Australian",
+        "mythName": "Seven Sisters (Pleiades)",
+        "celestialSign": "Radiant women (the Pleiades) fleeing hunter (Orion); flight guides coastal migrations",
+        "journeyType": "Coastal migrations; shaping settlement patterns",
+        "catastrophe": "\\"Falling stars and dark skies\\"; flooding; famine",
+        "redating": "~AD 930",
+        "potentialCause": "Pleiades prominence; meteor shower (flare-intensified); aurora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5599, 15.5007] 
+      },
+      "properties": {
+        "culture": "Nubian (East Africa)",
+        "mythName": "Star of Alwa",
+        "celestialSign": "\\"Star of Alwa\\" (St. Merkurios) guiding Christian converts/refugees to found monasteries",
+        "journeyType": "Migration to found monasteries (safe havens)",
+        "catastrophe": "\\"Shadowed skies\\"; plague; raids",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; nova; aurora (flare-intensified)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.2797, 54.6872] 
+      },
+      "properties": {
+        "culture": "Baltic (Lithuanian)",
+        "mythName": "Perkūnas' Fire-Star",
+        "celestialSign": "\\"Fire-star\\" (thunder god Perkūnas) guiding tribes to Baltic coast",
+        "journeyType": "Tribal relocations; establishing sacred groves",
+        "catastrophe": "\\"Blackened skies\\"; floods; environmental collapse",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; aurora (flare-intensified)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-157.8583, 21.3069] 
+      },
+      "properties": {
+        "culture": "Polynesian / Hawaiian",
+        "mythName": "Star Paths / Kāne's Star",
+        "celestialSign": "Star constellations as \\"celestial canoes\\"; radiant guiding star (e.g., Kāne's Star, Marquesan star)",
+        "journeyType": "Oceanic voyages; migrations between islands",
+        "catastrophe": "\\"Dark waves\\"; volcanic ash; seasonal navigation needs",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; bright star; flare-induced aurora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.9675, -13.5320] 
+      },
+      "properties": {
+        "culture": "Andean (Pre-Inca)",
+        "mythName": "Viracocha's Sky Flame",
+        "celestialSign": "\\"Sky flame\\" (creator god Viracocha) guiding tribes to Cuzco Valley",
+        "journeyType": "Migration to fertile highlands; founding settlements",
+        "catastrophe": "\\"Shadowed lands\\"; famine",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; meteor; aurora (flare-intensified)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.9542, 34.2644] 
+      },
+      "properties": {
+        "culture": "Chinese",
+        "mythName": "Guest Stars",
+        "celestialSign": "Supernovae, comets, novae as \\"guest stars\\"; omens",
+        "journeyType": "Military campaigns; dynastic shifts; population movements",
+        "catastrophe": "Upheaval; imperial mandates",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; supernova; aurora enhanced by flare"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.6238, 17.2220] 
+      },
+      "properties": {
+        "culture": "Mayan (Mesoamerica)",
+        "mythName": "Venus Cycles / Sacred Journeys",
+        "celestialSign": "Venus as radiant \\"Morning Star\\" (Kukulkan); signals war/pilgrimage; Popol Vuh hero quests",
+        "journeyType": "Warfare; pilgrimages; cosmic quests (Popol Vuh)",
+        "catastrophe": "Ritual cycles; societal organization",
+        "redating": "~AD 930",
+        "potentialCause": "Venus heliacal rising (flare-enhanced); aurora; comet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.8262, 21.4225] 
+      },
+      "properties": {
+        "culture": "Islamic",
+        "mythName": "Comets / Flaming Stars",
+        "celestialSign": "Comets, eclipses, \\"flaming star\\" as omens or guides",
+        "journeyType": "Caliphal expeditions; pilgrimages (Mecca); caravan guidance",
+        "catastrophe": "Imperial expansion; religious journeys",
+        "redating": "~AD 930",
+        "potentialCause": "Comet; flare-enhanced visibility; aurora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.7523, 59.9139] 
+      },
+      "properties": {
+        "culture": "Norse",
+        "mythName": "Auroras (Bifrost) / Sky Serpents",
+        "celestialSign": "Aurora as \\"Bifrost\\" bridge; \\"flaming sky\\"; \\"sky serpent\\" (Jörmungandr) as comet/aurora",
+        "journeyType": "Viking voyages (exploration/raids/migration)",
+        "catastrophe": "Cosmic upheaval (Ragnarok omens)",
+        "redating": "~AD 930",
+        "potentialCause": "Aurora (flare-intensified); comet"
+      }
+    }
+  ]
+} 

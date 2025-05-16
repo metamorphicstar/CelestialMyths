@@ -64,7 +64,12 @@ CelestialMyths/
 └── ... (other files and folders)
 ```
 
-## 6. Development Steps
+## 6. Key Project Files for Reference
+This section outlines other key Markdown files in the repository that provide the source data and context for the myths to be displayed on the map.
+*   **`myth_catalog.md`**: This file serves as a detailed catalog of all investigated myths. Each entry typically includes the myth's name, origin/culture, a summary of the narrative, and its relevance to the project's themes (celestial events, migrations, etc.). This file is a primary source for the descriptive content that will appear in the map pop-ups.
+*   **`comparative_tables.md`**: This file contains tables that compare various aspects of the myths, such as the nature of the celestial sign, type of journey, catastrophic context, conventional dating, Heinsohn's redating, and potential celestial cause. It's a key resource for extracting structured data points for each myth to be included in the `myth_locations.geojson` and displayed in map pop-ups.
+
+## 7. Development Steps
 1.  **Gather Coordinates and Data:**
     *   Compile a list of all myths to be mapped.
     *   Determine approximate geographical coordinates (latitude, longitude) for each.
@@ -91,7 +96,8 @@ CelestialMyths/
 
 ## 7. Next Steps (Action Items)
 1.  **Data Compilation:** User to provide an initial list of myths to be mapped, along with their general locations (e.g., "Arthurian - Glastonbury, UK", "Hungarian Csodaszarvas - Carpathian Basin").
-2.  **Coordinate Lookup & GeoJSON Creation:** Assistant (or user) to find approximate latitude/longitude for these locations and populate the `myth_locations.geojson` file.
+    *   _Data for pop-ups will be sourced/cross-referenced from `myth_catalog.md` and `comparative_tables.md`._
+2.  **Coordinate Lookup & GeoJSON Creation:** Assistant (or user) to find approximate latitude/longitude for these locations and populate the `myth_locations.geojson` file, using data from the aforementioned files.
 3.  **HTML/JS/CSS Scaffolding:** Assistant to provide basic template code for `interactive_map.html`, `map_script.js`, and `map_style.css` once initial data is available.
 4.  **Iterative Development:** Add more myths and features to the map incrementally.
 
